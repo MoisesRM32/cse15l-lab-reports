@@ -1,4 +1,4 @@
-These are my screenshots 
+**These are my screenshots**
 ![Image](NoAgrLS.png)
 ls outside of a directory with no arguments lists folders/directories in my workspace
 
