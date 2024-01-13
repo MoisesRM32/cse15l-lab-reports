@@ -54,9 +54,9 @@
 
 ![Image](FileAgrCat.png)
 
-1.I used the cat command on the en-us.txt file to display its contents
-2.The outputs of this command was that it displayed the worlds "Hello World!"
-3.cat with an argument of a file will state the contents in the file (But must be in the right directory with the right file to do so)
+1. I used the cat command on the en-us.txt file to display its contents
+2. The outputs of this command was that it displayed the worlds "Hello World!"
+3. cat with an argument of a file will state the contents in the file (But must be in the right directory with the right file to do so)
 
 
 
