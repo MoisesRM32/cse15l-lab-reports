@@ -1,9 +1,9 @@
 ## **These are my screenshots**
 ![Image](NoAgrLS.png)
 
-1. The `ls` command lists the `lecture1` directory. The current directory was `home` directory
-2. The output of the directory was `Lecture1`
-3. `ls` outside of a directory when used with no arguments, lists the files and directories in the current working directory 
+1. The `ls` command lists the `lecture1` directory. The current directory was `home` directory and there wasn't any paths to the command.
+2. The output of the directory was `Lecture1` which is the contents of what is inside of the workspace directory `home`. Because we didn't use a path or didn't change what directory we are in then this is the output.
+3. `ls` outside of a directory when used with no argument/paths, lists the files and directories in the current working directory.
 
 ![Image](FoldArgLS.png)
 
