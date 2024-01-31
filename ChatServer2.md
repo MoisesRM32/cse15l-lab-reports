@@ -12,3 +12,7 @@ This shows the output after inputting the path `/add-message?s=Hello&user=jpolit
 
 ![Image](Output1)
 This shows the output after inputting the path `/add-message?s=How are you&user=yash`. 
+![Image](ls.ssh)
+
+
+Summing up the week. I learned the `.sh` command is a shell script command and is the same as regular home. `bash` stands out for born again shell which I didn't know before I just thought it was meant for some testing thing apart of `JUNIT`. `ser -e` command allows you to catch where the error comes from when you code continues.
