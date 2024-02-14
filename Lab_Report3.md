@@ -67,9 +67,9 @@ find . -type f
 ./plos/pmed.0020281.txt
 etc...
 ```
-
-
-
+.
+.
+.
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ cd C:/Users/moise/docsearch/technical
@@ -89,9 +89,9 @@ find . -type d
 ./plos
 ```
 The first one lists all of the files in `./technical` using the find command with the `type f` and then in the next one I used the same command but instead used the `type d` for directories listing all of the directories in `./technical`
-
-
-
+.
+.
+.
 # find the file by searching for the file name and then riding the paths and file type just returning the name `find /path/to/search -name "filename" -printf "%f\n"` 
 
 ```
@@ -101,9 +101,9 @@ $ find C:/Users/moise/docsearch/technical -name "pmed.0020236.txt" -printf "%f\n
 ```
 pmed.0020236.txt
 ```
-
-
-
+.
+.
+.
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ find C:/Users/moise/docsearch/technical -type d -name "government" -printf "%f\n"
@@ -113,9 +113,9 @@ $ find C:/Users/moise/docsearch/technical -type d -name "government" -printf "%f
 government
 ```
 This will search for a file named `pmed.0020236.txt` within the `./technical` when looking for the specific file name. The second one will search for the directory name in the `./technical` in this case looking for the `government` directory.
-
-
-
+.
+.
+.
 # You can search for files that have been modified within a specific timeframe using the -mtime option. 
 ```
 find C:/Users/moise/docsearch/technical -type f -mtime -7
@@ -129,8 +129,9 @@ C:/Users/moise/docsearch/technical/government/Media/A_helping_hand.txt
 C:/Users/moise/docsearch/technical/government/Media/A_Perk_of_Age.txt
 etc..
 ```
-
-
+.
+.
+.
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ find C:/Users/moise/docsearch/technical -type f -mmin -60
@@ -139,9 +140,9 @@ $ find C:/Users/moise/docsearch/technical -type f -mmin -60
 
 The `find` command: `find C:/Users/moise/docsearch/technical -type f -mtime -7`
 will find files modified within the last 7 days in `./technical`. You can also use +7 for files modified more than 7 days ago, or 7 for exactly 7 days ago. In the second one I used  `find C:/Users/moise/docsearch/technical -type f -mmin -60` searching for files edited in the past hour or 60 mins  
-
-
-
+.
+.
+.
 # You can search for empty files and directories using the -empty option.
 ```
 find C:/Users/moise/docsearch/technical -type f -empty
@@ -153,9 +154,9 @@ $ find C:/Users/moise/docsearch/technical -type f -empty
 C:/Users/moise/docsearch/technical/all-files.txt
 C:/Users/moise/docsearch/technical/find-results.txt
 ```
-
-
-
+.
+.
+.
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ find C:/Users/moise/docsearch/technical -type d -empty
@@ -163,7 +164,7 @@ $ find C:/Users/moise/docsearch/technical -type d -empty
 # Output is nothing because there are no empty directories in `./technical
 
 The `find -empty` command found the empty files in `./technical` (`find C:/Users/moise/docsearch/technical -type f -empty`) and `find C:/Users/moise/docsearch/technical -type d -empty` found all the empty directories in `./technical`. This will find empty files in the specified directory. You can also search for empty directories by omitting -type f.
-
-
+.
+.
 # Found all my information about the different command line uses from Chat GBT
 
