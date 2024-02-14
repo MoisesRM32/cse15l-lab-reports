@@ -137,7 +137,9 @@ moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ find C:/Users/moise/docsearch/technical -type f -mmin -60
 ```
 # Output doesn't return anything because no files were edited in the past 60 seconds
-
+.
+.
+.
 The `find` command: `find C:/Users/moise/docsearch/technical -type f -mtime -7`
 will find files modified within the last 7 days in `./technical`. You can also use +7 for files modified more than 7 days ago, or 7 for exactly 7 days ago. In the second one I used  `find C:/Users/moise/docsearch/technical -type f -mmin -60` searching for files edited in the past hour or 60 mins  
 .
