@@ -69,12 +69,13 @@ etc...
 ```
 
 
-# Output
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ cd C:/Users/moise/docsearch/technical
 find . -type d
-
+```
+# Output
+```
 ./911report
 ./biomed
 ./government
