@@ -69,6 +69,7 @@ etc...
 ```
 
 
+
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ cd C:/Users/moise/docsearch/technical
@@ -100,6 +101,9 @@ $ find C:/Users/moise/docsearch/technical -name "pmed.0020236.txt" -printf "%f\n
 ```
 pmed.0020236.txt
 ```
+
+
+
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ find C:/Users/moise/docsearch/technical -type d -name "government" -printf "%f\n"
@@ -108,13 +112,11 @@ $ find C:/Users/moise/docsearch/technical -type d -name "government" -printf "%f
 ```
 government
 ```
-
 This will search for a file named `pmed.0020236.txt` within the `./technical` when looking for the specific file name. The second one will search for the directory name in the `./technical` in this case looking for the `government` directory.
 
 
 
 # You can search for files that have been modified within a specific timeframe using the -mtime option. 
-
 ```
 find C:/Users/moise/docsearch/technical -type f -mtime -7
 ```
@@ -127,6 +129,7 @@ C:/Users/moise/docsearch/technical/government/Media/A_helping_hand.txt
 C:/Users/moise/docsearch/technical/government/Media/A_Perk_of_Age.txt
 etc..
 ```
+
 
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
@@ -150,6 +153,9 @@ $ find C:/Users/moise/docsearch/technical -type f -empty
 C:/Users/moise/docsearch/technical/all-files.txt
 C:/Users/moise/docsearch/technical/find-results.txt
 ```
+
+
+
 ```
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ find C:/Users/moise/docsearch/technical -type d -empty
