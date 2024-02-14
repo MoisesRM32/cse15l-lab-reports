@@ -1,4 +1,4 @@
-# Failure inducing test that is supposed to reverse the array as the expected but doesn't
+# Failure-inducing test as the expected reversed array does not equal our actual array
 ```
 public class ArrayTests {
 	@Test 
@@ -8,7 +8,7 @@ public class ArrayTests {
     assertArrayEquals(new int[]{3,2,1} input1);
 	}
 ```
-# Failure inducing test that is supposed to create a new array with the same elements in reversed order
+# Failure-inducing test that is supposed to create a new array with the same elements in reversed order as expected but doesn't
 
 ```
   @Test
@@ -19,7 +19,7 @@ public class ArrayTests {
 }
 
 ```
-# Working tests that passes but doesn't give the expected outputs 
+# Working tests that pass but don't give the right outputs we want
 ```
 public class ArrayTests {
 	@Test 
@@ -37,3 +37,11 @@ public class ArrayTests {
 }
 
 ```
+# The test failed as the excepted array doesn't match our original array
+![Image](ScreenShot2.png)
+
+# This test also fails because the expected new array doesn't match our actual array
+![Image](Screenshot3.png)
+
+# This shows the tests passing but are not giving the output we want
+![Image](ScreenShot_1.png)
