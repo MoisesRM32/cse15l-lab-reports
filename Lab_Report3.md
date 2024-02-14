@@ -163,7 +163,7 @@ C:/Users/moise/docsearch/technical/find-results.txt
 moise@Moises_PRO MINGW64 ~/docsearch/technical (main)
 $ find C:/Users/moise/docsearch/technical -type d -empty
 ```
-# Output is nothing because there are no empty directories in `./technical
+# Output is nothing because there are no empty directories in ./technical
 
 The `find -empty` command found the empty files in `./technical` (`find C:/Users/moise/docsearch/technical -type f -empty`) and `find C:/Users/moise/docsearch/technical -type d -empty` found all the empty directories in `./technical`. This will find empty files in the specified directory. You can also search for empty directories by omitting -type f.
 .
