@@ -171,8 +171,9 @@ The `find -empty` command found the empty files in `./technical` (`find C:/Users
 # Found all my information about the different command line uses from Chat GBT
 
 The command that I chose was the find command, so I asked chatGBT if it could list out twenty different ways to use the find command from the terminal in the prompt.
-ChatGBT then returned twenty different unique ways to use the find command from the terminal listing out each command as  `find /path/to/search ` and then the command given, also describing what the command does before the code block
-I used the formats used from the code blocks in my terminal to practice and experiment with the commands that I chose. Like for example for the first find command`:/Users/moise/docsearch/technical
-find . -type d`. I changed the `path/to/search` to my the directory of `technical` using the command `find. -type d` listing the directories. Then I repeated this process for the the uses of the find command. 
-After I wrote a brief summary and description of the commands that I chose.
+ChatGBT then returned twenty different unique ways to use the find command from the terminal listing out each command as  `find /path/to/search ` and then the command given, also describing what the command does before the code block.
+
+I then used the formats used from the code blocks in my terminal to practice and experiment with the commands that I chose. Like for example, for the first find command`:/Users/moise/docsearch/technical find . -type d`. I changed the `path/to/search` to my directory of `technical` using the command `find. -type d` listing the directories. Then I repeated this process for the uses of the find command. 
+
+After I wrote a brief summary of what happened and a description of the commands that I chose.
 
