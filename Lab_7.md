@@ -11,8 +11,11 @@ Keys pressed(`bash`, `<space>`, `test.sh`, `enter`). allow me to run the failed 
 ![Image](changetoList.png)
 Keys pressed(`43J`,`11L`,`x`,`i`,`2`,`<Esc>`,`:wq`). this allowed me to go to specific line then to the specific number change 1 to 2, then pressing ESC, then to exiting with save and quit.
 
+![Image](running.png)
+keys pressed(`^`,`^`,`enter`) ran the test giving me passed tests
 ![Image](gitadd.png)
-
+keys pressed(`git`, `<space>`, `add`, `<space>`, `.`, `<enter>`) this adds the changes
 ![Image](gitcommit.png)
-
+keys pressed (`git`, `<space>`, `commit`, `<space>`, `-m`, `<space>`, `"commiting"` ,`<space>`) this saves the current state of the files
 ![Image](gitpush.png)
+keys pressed (`git`, `push`, `origin`, `main`) this allows me to push the file to git main branch
