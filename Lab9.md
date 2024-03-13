@@ -10,7 +10,7 @@ You should review your addition method and multiply methods as there may be some
 
 ![Image](float.png)
 This is when I fixed the issue in both methods add and multiplication and ran it only to fail to the floating point error.
-![Image](passedtest.png)
+![Image](passedtests.png)
 This is after I added a delta to both tests passing the tests. So to fix the bugs in my code was changed the method titles of add and multiply in `SimpleCalculator.java`. Then in `SimpleCalculatorTester.java` I added deltas to the answers.
 
 
