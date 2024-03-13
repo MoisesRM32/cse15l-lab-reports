@@ -7,3 +7,12 @@ My code is not working for both my multiply and addition functions. In the addit
 
 #Response from TA "Jonsey Fortnite"
 You should review your addition method and multiply methods as there may be some confusion on how you implemented your methods, also check if tester methods are missing an arguement in your assertions. Because you are working with doubles your testers. Search up what a delta delta is for floating point numbers.
+
+![Image](float.png)
+This is when I fixed the issue in both methods add and multiplication and ran it only to fail to the floating point error.
+![Image](passedtest.png)
+This is after I added a delta to both tests passing the tests. So to fix the bugs in my code was changed the method titles of add and multiply in `SimpleCalculator.java`. Then in `SimpleCalculatorTester.java` I added deltas to the answers.
+
+
+
+
